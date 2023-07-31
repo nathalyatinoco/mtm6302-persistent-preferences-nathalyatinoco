@@ -9,6 +9,8 @@
      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
      <link href="https://fonts.googleapis.com/css2?family=Fira+Sans+Extra+Condensed:wght@100&family=Fira+Sans:wght@800&family=Roboto:wght@100&display=swap" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
 </head>
 <body>
     <div style="background:rgb(130, 172, 133);padding:5px">
@@ -47,7 +49,7 @@
         <div class="main">
           <h2>Colombia Collection</h2>
           <h5>Title description, Dec 7, 2017</h5>
-          <div class="fakeimg" style="height:200px;">Image
+          <div class="fakeimg" style="height:200px;"> 
             <img src="images/image-11.jpg" alt="image-01" class="gallery"></div>
             <br>
             <p>DESCRIPTION</p>
@@ -56,21 +58,30 @@
 
           <h4>PREFERENCES</h4>
           <br>
+
           <form>
             <div class="form-row align-items-center">
               <div class="col-auto my-1">
                 <label class="mr-sm-2" for="inlineFormCustomSelect">Style</label>
                 <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
                   <option selected>Choose...</option>
-                  <option value="1">One</option>
-                  <option value="2">Two</option>
-                  <option value="3">Three</option>
-                  <option value="4">Four</option>
-                  <option value="5">Five</option>
+                  <option value="1">Light</option>
+                  <option value="2">Dark</option>
+                  <option value="3">Medium Light</option>
+                  <option value="4">Medium Dark</option>
+                  <option value="5">None</option>
                 </select>
-              </div>   
+              </div>  
+              
+              <div class="custom-control custom-checkbox my-1 mr-sm-2">
+                <input type="checkbox" class="custom-control-input" id="customControlInline">
+                <label class="custom-control-label" for="customControlInline">Remember my preference</label>
+              </div>
+            
+              <button type="submit" class="btn btn-primary my-1">Submit</button>    
           </form>
         </div>
+
         <main class="output">
             <div class="couter">
               <div id="display" class="display">0</div>
@@ -79,21 +90,11 @@
             </div>
         </main>
       </div>
-      
-      <!-- Footer -->
-      <div class="footer">
-        <h2>Footer</h2>
-      </div>
 
-
-
-
-
-
-
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
-<script src="js/main.js"></script>
+ <!-- Footer -->
+ <div class="footer">
+    <p>Developed by NTV</p>
+  </div>
 
 </body>
 </html>

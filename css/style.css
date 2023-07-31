@@ -47,8 +47,8 @@
   
   /* Fake image, just for this example */
   .fakeimg {
-    background-color: #aaa;
-    width: 1%;
+    background-color: #f6f3d966;
+    width: 17%;
     height: 1%;
     padding: 20px;
   }
@@ -57,18 +57,12 @@
   .display {
     margin: 5px;
     padding: 25px 10px;
-    
     background-color: #fff;
     border: 1px solid #ccc;
-    font-family: monospace;
-    font-size: 4rem;
+    font-size: 2rem;
     text-align: center;
   }
   
-  .btn {
-    margin: 5px;
-  }
-
 
   /* Footer */
   .footer {
